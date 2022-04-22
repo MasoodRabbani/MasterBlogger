@@ -1,0 +1,14 @@
+F:\MasterBloger\MasterBloger\MB.Application\obj\Debug\net5.0\MB.Application.csprojAssemblyReference.cache
+F:\MasterBloger\MasterBloger\MB.Application\obj\Debug\net5.0\MB.Application.AssemblyInfoInputs.cache
+F:\MasterBloger\MasterBloger\MB.Application\obj\Debug\net5.0\MB.Application.AssemblyInfo.cs
+F:\MasterBloger\MasterBloger\MB.Application\obj\Debug\net5.0\MB.Application.csproj.CoreCompileInputs.cache
+F:\MasterBloger\MasterBloger\MB.Application\bin\Debug\net5.0\MB.Application.deps.json
+F:\MasterBloger\MasterBloger\MB.Application\bin\Debug\net5.0\MB.Application.dll
+F:\MasterBloger\MasterBloger\MB.Application\bin\Debug\net5.0\MB.Application.pdb
+F:\MasterBloger\MasterBloger\MB.Application\bin\Debug\net5.0\MB.Application.Contact.dll
+F:\MasterBloger\MasterBloger\MB.Application\bin\Debug\net5.0\MB.Domain.dll
+F:\MasterBloger\MasterBloger\MB.Application\bin\Debug\net5.0\MB.Application.Contact.pdb
+F:\MasterBloger\MasterBloger\MB.Application\bin\Debug\net5.0\MB.Domain.pdb
+F:\MasterBloger\MasterBloger\MB.Application\obj\Debug\net5.0\MB.Application.csproj.CopyComplete
+F:\MasterBloger\MasterBloger\MB.Application\obj\Debug\net5.0\MB.Application.dll
+F:\MasterBloger\MasterBloger\MB.Application\obj\Debug\net5.0\MB.Application.pdb

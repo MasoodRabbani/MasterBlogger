@@ -1,0 +1,171 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\MasterBloger\\MasterBloger\\MB.Application\\MB.Application.csproj": {}
+  },
+  "projects": {
+    "F:\\MasterBloger\\MasterBloger\\MB.Application.Contract\\MB.Application.Contact.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\MasterBloger\\MasterBloger\\MB.Application.Contract\\MB.Application.Contact.csproj",
+        "projectName": "MB.Application.Contact",
+        "projectPath": "F:\\MasterBloger\\MasterBloger\\MB.Application.Contract\\MB.Application.Contact.csproj",
+        "packagesPath": "C:\\Users\\MrClike\\.nuget\\packages\\",
+        "outputPath": "F:\\MasterBloger\\MasterBloger\\MB.Application.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MrClike\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.6.20318.15\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\MasterBloger\\MasterBloger\\MB.Application\\MB.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\MasterBloger\\MasterBloger\\MB.Application\\MB.Application.csproj",
+        "projectName": "MB.Application",
+        "projectPath": "F:\\MasterBloger\\MasterBloger\\MB.Application\\MB.Application.csproj",
+        "packagesPath": "C:\\Users\\MrClike\\.nuget\\packages\\",
+        "outputPath": "F:\\MasterBloger\\MasterBloger\\MB.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MrClike\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "projectReferences": {
+              "F:\\MasterBloger\\MasterBloger\\MB.Application.Contract\\MB.Application.Contact.csproj": {
+                "projectPath": "F:\\MasterBloger\\MasterBloger\\MB.Application.Contract\\MB.Application.Contact.csproj"
+              },
+              "F:\\MasterBloger\\MasterBloger\\MB.Domain\\MB.Domain.csproj": {
+                "projectPath": "F:\\MasterBloger\\MasterBloger\\MB.Domain\\MB.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.6.20318.15\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\MasterBloger\\MasterBloger\\MB.Domain\\MB.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\MasterBloger\\MasterBloger\\MB.Domain\\MB.Domain.csproj",
+        "projectName": "MB.Domain",
+        "projectPath": "F:\\MasterBloger\\MasterBloger\\MB.Domain\\MB.Domain.csproj",
+        "packagesPath": "C:\\Users\\MrClike\\.nuget\\packages\\",
+        "outputPath": "F:\\MasterBloger\\MasterBloger\\MB.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MrClike\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.6.20318.15\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

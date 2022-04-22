@@ -1,0 +1,15 @@
+F:\MasterBloger\MasterBloger\MB.Infrastructure.EFCore\bin\Debug\net5.0\MB.Domain.dll
+F:\MasterBloger\MasterBloger\MB.Infrastructure.EFCore\obj\Debug\net5.0\MB.Infrastructure.EFCore.csprojAssemblyReference.cache
+F:\MasterBloger\MasterBloger\MB.Infrastructure.EFCore\obj\Debug\net5.0\MB.Infrastructure.EFCore.AssemblyInfoInputs.cache
+F:\MasterBloger\MasterBloger\MB.Infrastructure.EFCore\obj\Debug\net5.0\MB.Infrastructure.EFCore.AssemblyInfo.cs
+F:\MasterBloger\MasterBloger\MB.Infrastructure.EFCore\bin\Debug\net5.0\MB.Infrastructure.EFCore.deps.json
+F:\MasterBloger\MasterBloger\MB.Infrastructure.EFCore\bin\Debug\net5.0\MB.Infrastructure.EFCore.runtimeconfig.json
+F:\MasterBloger\MasterBloger\MB.Infrastructure.EFCore\bin\Debug\net5.0\MB.Infrastructure.EFCore.runtimeconfig.dev.json
+F:\MasterBloger\MasterBloger\MB.Infrastructure.EFCore\bin\Debug\net5.0\MB.Infrastructure.EFCore.dll
+F:\MasterBloger\MasterBloger\MB.Infrastructure.EFCore\bin\Debug\net5.0\MB.Infrastructure.EFCore.pdb
+F:\MasterBloger\MasterBloger\MB.Infrastructure.EFCore\bin\Debug\net5.0\MB.Domain.pdb
+F:\MasterBloger\MasterBloger\MB.Infrastructure.EFCore\obj\Debug\net5.0\MB.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
+F:\MasterBloger\MasterBloger\MB.Infrastructure.EFCore\obj\Debug\net5.0\MB.Infrastructure.EFCore.csproj.CopyComplete
+F:\MasterBloger\MasterBloger\MB.Infrastructure.EFCore\obj\Debug\net5.0\MB.Infrastructure.EFCore.dll
+F:\MasterBloger\MasterBloger\MB.Infrastructure.EFCore\obj\Debug\net5.0\MB.Infrastructure.EFCore.pdb
+F:\MasterBloger\MasterBloger\MB.Infrastructure.EFCore\obj\Debug\net5.0\MB.Infrastructure.EFCore.genruntimeconfig.cache

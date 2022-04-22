@@ -1,0 +1,9 @@
+F:\MasterBloger\MasterBloger\MB.Application.Contract\obj\Debug\net5.0\MB.Application.Contact.csprojAssemblyReference.cache
+F:\MasterBloger\MasterBloger\MB.Application.Contract\obj\Debug\net5.0\MB.Application.Contact.AssemblyInfoInputs.cache
+F:\MasterBloger\MasterBloger\MB.Application.Contract\obj\Debug\net5.0\MB.Application.Contact.AssemblyInfo.cs
+F:\MasterBloger\MasterBloger\MB.Application.Contract\obj\Debug\net5.0\MB.Application.Contact.csproj.CoreCompileInputs.cache
+F:\MasterBloger\MasterBloger\MB.Application.Contract\bin\Debug\net5.0\MB.Application.Contact.deps.json
+F:\MasterBloger\MasterBloger\MB.Application.Contract\bin\Debug\net5.0\MB.Application.Contact.dll
+F:\MasterBloger\MasterBloger\MB.Application.Contract\bin\Debug\net5.0\MB.Application.Contact.pdb
+F:\MasterBloger\MasterBloger\MB.Application.Contract\obj\Debug\net5.0\MB.Application.Contact.dll
+F:\MasterBloger\MasterBloger\MB.Application.Contract\obj\Debug\net5.0\MB.Application.Contact.pdb

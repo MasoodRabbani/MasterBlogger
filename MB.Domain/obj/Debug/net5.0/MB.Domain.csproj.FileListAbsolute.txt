@@ -1,0 +1,9 @@
+F:\MasterBloger\MasterBloger\MB.Domain\bin\Debug\net5.0\MB.Domain.deps.json
+F:\MasterBloger\MasterBloger\MB.Domain\bin\Debug\net5.0\MB.Domain.dll
+F:\MasterBloger\MasterBloger\MB.Domain\bin\Debug\net5.0\MB.Domain.pdb
+F:\MasterBloger\MasterBloger\MB.Domain\obj\Debug\net5.0\MB.Domain.AssemblyInfoInputs.cache
+F:\MasterBloger\MasterBloger\MB.Domain\obj\Debug\net5.0\MB.Domain.AssemblyInfo.cs
+F:\MasterBloger\MasterBloger\MB.Domain\obj\Debug\net5.0\MB.Domain.csproj.CoreCompileInputs.cache
+F:\MasterBloger\MasterBloger\MB.Domain\obj\Debug\net5.0\MB.Domain.dll
+F:\MasterBloger\MasterBloger\MB.Domain\obj\Debug\net5.0\MB.Domain.pdb
+F:\MasterBloger\MasterBloger\MB.Domain\obj\Debug\net5.0\MB.Domain.csprojAssemblyReference.cache
