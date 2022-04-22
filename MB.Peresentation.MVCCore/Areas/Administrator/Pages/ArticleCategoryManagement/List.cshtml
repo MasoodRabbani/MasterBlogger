@@ -38,7 +38,7 @@
                         </td>
                     <td>@i.CreationDate</td>
                     <td>
-                        <a class="btn btn-warning" asp-page="Edit" asp-area="Administrator" asp-route-Id="@i.Id">Edit</a>
+                        <a class="btn btn-warning float-left mr-1" asp-page="Edit" asp-area="Administrator" asp-route-Id="@i.Id">Edit</a>
                         @if (!i.IsDeleted)
                         {
                             <form method="post" asp-page-handler="Remove">

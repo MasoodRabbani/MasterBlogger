@@ -18,6 +18,12 @@ namespace MB.Infrastructure.EFCore.Repository
             this.context = context;
         }
 
+        public void Add(Article entity)
+        {
+            context.Articles.Add(entity);
+            context.SaveChanges();
+        }
+
         public List<ArticleViewModel> GetAll()
         {
             return context.Articles.Include(s=>s.ArticleCategory).Select(s => new ArticleViewModel()

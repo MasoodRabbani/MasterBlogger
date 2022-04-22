@@ -9,6 +9,6 @@ namespace MB.Application.Contact.Article
     public interface IArticleApplication
     {
         List<ArticleViewModel> GetList();
-
+        void Create(CreateArticle Command);
     }
 }
