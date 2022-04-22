@@ -13,6 +13,10 @@ namespace MB.Domain.ArticleCategoryAgg
         public DateTime CreationDate { get; private set; }
         public List<Article> Articles { get; set; }
 
+        protected ArticleCategory()
+        {
+
+        }
         public ArticleCategory(string title,IArticleCategoryValidationServices articleCategoryValidationServices)
         {
             GuardAgainstEmptyTitle(title);

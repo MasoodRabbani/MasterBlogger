@@ -2058,6 +2058,9 @@
         }
       },
       "MB.Domain/1.0.0": {
+        "dependencies": {
+          "MB.Application.Contact": "1.0.0"
+        },
         "runtime": {
           "MB.Domain.dll": {}
         },

@@ -35,7 +35,7 @@ namespace MB.Infrastructure.EFCore.Repository
 
         public List<ArticleCategory> GetAll()
         {
-            return context.ArticleCategories.ToList();
+            return context.ArticleCategories.OrderByDescending(s=>s.Id).ToList();
         }
 
         public void Save()

@@ -151,3 +151,4 @@ F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\obj\Debug\netcoreapp5\MB.P
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\obj\Debug\netcoreapp5\MB.Peresentation.MVCCore.MvcApplicationPartsAssemblyInfo.cache
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\obj\Debug\netcoreapp5\Razor\Areas\Administrator\Pages\ArticleCategoryManagement\Create.cshtml.g.cs
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\obj\Debug\netcoreapp5\Razor\Areas\Administrator\Pages\ArticleCategoryManagement\Edit.cshtml.g.cs
+F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\obj\Debug\netcoreapp5\Razor\Areas\Administrator\Pages\ArticleManagement\List.cshtml.g.cs

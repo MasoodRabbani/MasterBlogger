@@ -137,7 +137,11 @@
         },
         "frameworks": {
           "net5.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\MasterBloger\\MasterBloger\\MB.Application.Contract\\MB.Application.Contact.csproj": {
+                "projectPath": "F:\\MasterBloger\\MasterBloger\\MB.Application.Contract\\MB.Application.Contact.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MB.Application.Contact.Article;
 using MB.Domain.ArticleAgg;
+using Microsoft.EntityFrameworkCore;
 
 namespace MB.Infrastructure.EFCore.Repository
 {
@@ -14,6 +16,18 @@ namespace MB.Infrastructure.EFCore.Repository
         public ArticleRepository(MasterBlogerContext context)
         {
             this.context = context;
+        }
+
+        public List<ArticleViewModel> GetAll()
+        {
+            return context.Articles.Include(s=>s.ArticleCategory).Select(s => new ArticleViewModel()
+            {
+                Id = s.Id,
+                Title = s.Title,
+                IsDeleted = s.IsDeleted,
+                CreationDate = s.CreationDate.ToString(),
+                ArticleCategory = s.ArticleCategory.Title
+            }).ToList();
         }
     }
 }
