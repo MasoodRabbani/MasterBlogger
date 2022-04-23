@@ -4,5 +4,38 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<main class="posts-listing col-lg-12">
+    <div class="container">
+        <div class="row">
 
+            @foreach (var i in Model.ArticleQueryViews)
+            {
+                <div class="post col-xl-6">
+                    <div class="post-thumbnail">
+                        <a asp-page="/Details" asp-route-Id="@i.Id">
+                            <img src="@i.Image" alt="@i.Title" title="@i.Title" class="img-fluid"/>
+                        </a>
+                    </div>
+                    <div class="post-details">
+                        <div class="post-meta d-flex justify-content-between">
+                            <div class="date meta-last">@i.CreationDate</div>
+                            <div class="category">
+                                <a href="#">@i.ArticleCategory</a>
+                            </div>
+                        </div>
+                        <a asp-page="ArticleDetails" asp-route-Id="">
+                            <h3 class="h4">@i.Title</h3>
+                        </a>
+                        <p class="text-muted">
+                            @i.ShortDescription
+                        </p>
+                        <footer class="post-footer d-flex align-items-center">
+                            <div class="comment meta-last"><i class="icon-comment">12</i></div>
+                        </footer>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</main>

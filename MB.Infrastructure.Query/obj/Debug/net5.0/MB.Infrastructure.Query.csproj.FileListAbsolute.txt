@@ -1,0 +1,16 @@
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\bin\Debug\net5.0\MB.Infrastructure.Query.deps.json
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\bin\Debug\net5.0\MB.Infrastructure.Query.dll
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\bin\Debug\net5.0\MB.Infrastructure.Query.pdb
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\bin\Debug\net5.0\MB.Application.Contact.dll
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\bin\Debug\net5.0\MB.Domain.dll
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\bin\Debug\net5.0\MB.Infrastructure.EFCore.dll
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\bin\Debug\net5.0\MB.Infrastructure.EFCore.pdb
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\bin\Debug\net5.0\MB.Application.Contact.pdb
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\bin\Debug\net5.0\MB.Domain.pdb
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\obj\Debug\net5.0\MB.Infrastructure.Query.csprojAssemblyReference.cache
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\obj\Debug\net5.0\MB.Infrastructure.Query.AssemblyInfoInputs.cache
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\obj\Debug\net5.0\MB.Infrastructure.Query.AssemblyInfo.cs
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\obj\Debug\net5.0\MB.Infrastructure.Query.csproj.CoreCompileInputs.cache
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\obj\Debug\net5.0\MB.Infrastructure.Query.csproj.CopyComplete
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\obj\Debug\net5.0\MB.Infrastructure.Query.dll
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\obj\Debug\net5.0\MB.Infrastructure.Query.pdb

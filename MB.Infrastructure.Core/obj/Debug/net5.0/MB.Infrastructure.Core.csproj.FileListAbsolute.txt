@@ -16,3 +16,5 @@ F:\MasterBloger\MasterBloger\MB.Infrastructure.Core\bin\Debug\net5.0\MB.Domain.p
 F:\MasterBloger\MasterBloger\MB.Infrastructure.Core\obj\Debug\net5.0\MB.Infrastructure.Core.csproj.CopyComplete
 F:\MasterBloger\MasterBloger\MB.Infrastructure.Core\obj\Debug\net5.0\MB.Infrastructure.Core.dll
 F:\MasterBloger\MasterBloger\MB.Infrastructure.Core\obj\Debug\net5.0\MB.Infrastructure.Core.pdb
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Core\bin\Debug\net5.0\MB.Infrastructure.Query.dll
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Core\bin\Debug\net5.0\MB.Infrastructure.Query.pdb
