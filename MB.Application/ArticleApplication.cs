@@ -17,6 +17,13 @@ namespace MB.Application
             this.artcileRepository = artcileRepository;
         }
 
+        public void Active(long Id)
+        {
+            var model = artcileRepository.Get(Id);
+            model.Active();
+            artcileRepository.Save();
+        }
+
         public void Create(CreateArticle Command)
         {
             artcileRepository.Add(new Article(Command.Title,Command.ShortDescription,Command.Image,Command.Content,Command.ArticleCategory));
@@ -46,6 +53,13 @@ namespace MB.Application
         public List<ArticleViewModel> GetList()
         {
             return artcileRepository.GetAll();
+        }
+
+        public void Remove(long Id)
+        {
+            var model = artcileRepository.Get(Id);
+            model.Remove();
+            artcileRepository.Save();
         }
     }
 }

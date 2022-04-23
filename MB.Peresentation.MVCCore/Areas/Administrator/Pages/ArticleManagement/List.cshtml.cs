@@ -26,5 +26,16 @@ namespace MB.Peresentation.MVCCore.Areas.Administrator.Pages.ArticleManagement
             
             Article = ArticleApplication.GetList();
         }
+
+        public RedirectToPageResult OnPostRemove(long Id)
+        {
+            ArticleApplication.Remove(Id);
+            return RedirectToPage();
+        }
+        public RedirectToPageResult OnPostActive(long Id)
+        {
+            ArticleApplication.Active(Id);
+            return RedirectToPage();
+        }
     }
 }

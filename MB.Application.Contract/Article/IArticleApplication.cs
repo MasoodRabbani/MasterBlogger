@@ -12,5 +12,7 @@ namespace MB.Application.Contact.Article
         void Create(CreateArticle Command);
         void Edit(EditArticle Command);
         EditArticle Get(long Id);
+        void Remove(long Id);
+        void Active(long Id);
     }
 }
