@@ -4,6 +4,7 @@ using MB.Application;
 using System;
 using MB.Application.Contact.Article;
 using MB.Domain.ArticleAgg;
+using MB.Domain.ArticleAgg.Services;
 using MB.Domain.ArticleCategoryAgg;
 using MB.Domain.ArticleCategoryAgg.Services;
 using MB.Infrastructure.EFCore;
@@ -22,6 +23,7 @@ namespace MB.Infrastructure.Core
 
             services.AddTransient<IArticleApplication, ArticleApplication>();
             services.AddTransient<IArticleRepository, ArticleRepository>();
+            services.AddTransient<IArticleValidatorServices, ArticleValidatorServices>();
             services.AddDbContext<MasterBlogerContext>(option => option.UseSqlServer(ConnectingString));
         }
     }

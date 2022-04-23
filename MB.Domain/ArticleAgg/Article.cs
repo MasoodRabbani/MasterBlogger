@@ -24,8 +24,16 @@ namespace MB.Domain.ArticleAgg
             
         }
 
+        private static void Validation(string title, long articlecategoryid)
+        {
+            if (string.IsNullOrWhiteSpace(title))
+                throw new ArgumentNullException();
+            if (articlecategoryid == 0)
+                throw new ArgumentNullException();
+        }
         public Article( string title, string shortDescription, string image, string content,long articleCategoryId)
         {
+            Validation(title,articleCategoryId);
             Title = title;
             ShortDescription = shortDescription;
             Image = image;
