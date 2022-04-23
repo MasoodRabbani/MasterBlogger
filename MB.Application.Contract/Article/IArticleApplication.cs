@@ -10,5 +10,7 @@ namespace MB.Application.Contact.Article
     {
         List<ArticleViewModel> GetList();
         void Create(CreateArticle Command);
+        void Edit(EditArticle Command);
+        EditArticle Get(long Id);
     }
 }

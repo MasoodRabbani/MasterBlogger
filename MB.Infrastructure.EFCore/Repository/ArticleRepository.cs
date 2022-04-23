@@ -24,6 +24,11 @@ namespace MB.Infrastructure.EFCore.Repository
             context.SaveChanges();
         }
 
+        public Article Get(long Id)
+        {
+            return context.Articles.FirstOrDefault(s => s.Id == Id);
+        }
+
         public List<ArticleViewModel> GetAll()
         {
             return context.Articles.Include(s=>s.ArticleCategory).Select(s => new ArticleViewModel()
@@ -34,6 +39,11 @@ namespace MB.Infrastructure.EFCore.Repository
                 CreationDate = s.CreationDate.ToString(),
                 ArticleCategory = s.ArticleCategory.Title
             }).ToList();
+        }
+
+        public void Save()
+        {
+            context.SaveChanges();
         }
     }
 }

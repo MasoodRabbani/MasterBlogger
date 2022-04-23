@@ -153,3 +153,4 @@ F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\obj\Debug\netcoreapp5\Razo
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\obj\Debug\netcoreapp5\Razor\Areas\Administrator\Pages\ArticleCategoryManagement\Edit.cshtml.g.cs
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\obj\Debug\netcoreapp5\Razor\Areas\Administrator\Pages\ArticleManagement\List.cshtml.g.cs
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\obj\Debug\netcoreapp5\Razor\Areas\Administrator\Pages\ArticleManagement\Create.cshtml.g.cs
+F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\obj\Debug\netcoreapp5\Razor\Areas\Administrator\Pages\ArticleManagement\Edit.cshtml.g.cs

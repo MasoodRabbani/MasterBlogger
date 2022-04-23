@@ -17,8 +17,13 @@ namespace MB.Peresentation.MVCCore.Areas.Administrator.Pages.ArticleManagement
         {
             ArticleApplication = articleApplication;
         }
-        public void OnGet()
+        public void OnGet(string Msg="")
         {
+            if (Msg!="")
+            {
+                ViewData["Massage"] = Msg;
+            }
+            
             Article = ArticleApplication.GetList();
         }
     }
