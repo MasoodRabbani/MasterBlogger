@@ -1,0 +1,71 @@
+﻿@page
+@using MB.Domain.CommentAgg
+@model MB.Peresentation.MVCCore.Areas.Administrator.Pages.CommentManagment.ListModel
+@{
+}
+    <div class="card">
+        <div class="card-header">
+            <h3 class="float-left">Comment List</h3>
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Message</th>
+                        <th>Article</th>
+                        <th>Status</th>
+                        <th>Creation Date</th>
+                        <th>Operation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var i in Model.CommentViewModels)
+                    {
+                        <tr>
+                            <td>@i.Id</td>
+                            <td>@i.Name</td>
+                            <td>@i.Email</td>
+                            <td>@i.Message</td>
+                            <td>@i.Artice</td>
+                            <td>
+                                @if (i.Status == Statuses.New)
+                                {
+                                    <i class="fa fa-eye fa-2x text-info"></i>
+                                }
+                                else if (i.Status == Statuses.Canceled)
+                                {
+                                    <i class="fa fa-close fa-2x text-danger"></i>
+                                }
+                                else
+                                {
+                                    <i class="fa fa-check fa-2x text-success"></i>
+
+                                }
+                            </td>
+                            <td>@i.CreationDate</td>
+                            <td class="float-left mr-1">
+                                @*<a class="btn btn-warning float-left mr-1" asp-page="Edit" asp-area="Administrator" asp-route-Id="@i.Id">Edit</a>*@
+                                @if (i.Status==Statuses.New)
+                                {
+                                    <form method="post" asp-page-handler="Confirm">
+                                        <button class="btn btn-danger">Confrim</button>
+                                        <input type="hidden" value="@i.Id" name="Id" />
+                                    </form>
+                                }
+                                else
+                                {
+                                    <form method="post" asp-page-handler="Cancel">
+                                        <button class="btn btn-success">Cancel</button>
+                                        <input type="hidden" value="@i.Id" name="Id" />
+                                    </form>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>

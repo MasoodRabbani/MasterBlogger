@@ -157,3 +157,4 @@ F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\obj\Debug\netcoreapp5\Razo
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\MB.Infrastructure.Query.dll
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\MB.Infrastructure.Query.pdb
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\obj\Debug\netcoreapp5\Razor\Pages\Details.cshtml.g.cs
+F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\obj\Debug\netcoreapp5\Razor\Areas\Administrator\Pages\CommentManagment\List.cshtml.g.cs
