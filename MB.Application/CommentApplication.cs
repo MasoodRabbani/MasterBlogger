@@ -16,5 +16,10 @@ namespace MB.Application
         {
             this.commentRepository = commentRepository;
         }
+
+        public void Add(AddComment Command)
+        {
+            commentRepository.Create(new Comment(Command.Name,Command.Email,Command.Message,Command.ArticleId));
+        }
     }
 }

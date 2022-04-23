@@ -17,7 +17,7 @@ namespace MB.Infrastructure.EFCore.Mapping
             builder.HasKey(s => s.Id);
             builder.Property(s => s.Name);
             builder.Property(s => s.Email);
-            builder.Property(s => s.Massage);
+            builder.Property(s => s.Message);
             builder.Property(s => s.Status);
             builder.Property(s => s.CreationDate);
             builder.Property(s => s.ArticleId);

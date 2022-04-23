@@ -8,7 +8,7 @@ namespace MB.Domain.CommentAgg
         public long Id { get; private set; }
         public string Name { get; private set; }
         public string Email { get; private set; }
-        public string Massage { get; private set; }
+        public string Message { get; private set; }
         public int Status { get; private set; }//new =0 , confirm=1 , cancel=2
         public DateTime CreationDate { get; private set; }
         public long ArticleId { get; private set; }
@@ -18,7 +18,7 @@ namespace MB.Domain.CommentAgg
         {
             Name = name;
             Email = email;
-            Massage = massage;
+            Message = massage;
             ArticleId = articleId;
             CreationDate=DateTime.Now;
             Status = Statuses.New;

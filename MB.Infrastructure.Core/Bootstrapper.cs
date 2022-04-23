@@ -3,10 +3,12 @@ using Microsoft.Extensions.DependencyInjection;
 using MB.Application;
 using System;
 using MB.Application.Contact.Article;
+using MB.Application.Contact.Comment;
 using MB.Domain.ArticleAgg;
 using MB.Domain.ArticleAgg.Services;
 using MB.Domain.ArticleCategoryAgg;
 using MB.Domain.ArticleCategoryAgg.Services;
+using MB.Domain.CommentAgg;
 using MB.Infrastructure.EFCore;
 using MB.Infrastructure.EFCore.Repository;
 using Microsoft.EntityFrameworkCore;
@@ -27,6 +29,9 @@ namespace MB.Infrastructure.Core
             services.AddTransient<IArticleValidatorServices, ArticleValidatorServices>();
 
             services.AddTransient<IArticleQuery,ArticleQuery>();
+
+            services.AddTransient<ICommentApplication, CommentApplication>();
+            services.AddTransient<ICommentRepository, CommentRepository>();
             services.AddDbContext<MasterBlogerContext>(option => option.UseSqlServer(ConnectingString));
         }
     }

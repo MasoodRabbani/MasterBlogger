@@ -8,6 +8,6 @@ namespace MB.Application.Contact.Comment
 {
     public interface ICommentApplication
     {
-        
+        void Add(AddComment Command);
     }
 }
