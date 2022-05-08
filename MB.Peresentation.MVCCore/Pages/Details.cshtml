@@ -26,7 +26,7 @@
                             <div class="date">
                                 <i class="icon-clock"></i> @Model.ArticleQueryView.CreationDate
                             </div>
-                            <div class="comments meta-last"><i class="icon-comment"></i>12</div>
+                            <div class="comments meta-last"><i class="icon-comment"></i>@Model.ArticleQueryView.CommentCount</div>
                         </div>
                     </div>
                     <div class="post-body">
@@ -38,10 +38,10 @@
 
 
                     <div class="post-comments">
-                        @*<header>
-                            <h3 class="h6">Post Comments<span class="no-of-comments">(@Model.ArticleQueryView.CommentsCount)</span></h3>
-                        </header>*@
-                        @*@foreach (var comment in Model.Article.Comments)
+                        <header>
+                            <h3 class="h6">Post Comments<span class="no-of-comments">(@Model.ArticleQueryView.CommentCount)</span></h3>
+                        </header>
+                        @foreach (var comment in Model.ArticleQueryView.CommentQueryViews)
                         {
                             <div class="comment">
                                 <div class="comment-header d-flex justify-content-between">
@@ -58,7 +58,7 @@
                                     <p>@comment.Message</p>
                                 </div>
                             </div>
-                        }*@
+                        }
 
                     </div>
 
