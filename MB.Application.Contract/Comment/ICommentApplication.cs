@@ -10,5 +10,7 @@ namespace MB.Application.Contact.Comment
     {
         void Add(AddComment Command);
         List<CommentViewModel> GetList();
+        void Confirm(long Id);
+        void Canceled(long Id);
     }
 }

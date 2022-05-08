@@ -28,5 +28,8 @@ namespace MB.Domain.CommentAgg
         {
             
         }
+
+        public void Confirm() => Status = Statuses.Confirm;
+        public void Canceled() => Status = Statuses.Canceled;
     }
 }

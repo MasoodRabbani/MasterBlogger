@@ -22,6 +22,20 @@ namespace MB.Application
             commentRepository.Create(new Comment(Command.Name,Command.Email,Command.Message,Command.ArticleId));
         }
 
+        public void Canceled(long Id)
+        {
+            var model = commentRepository.Get(Id);
+            model.Canceled();
+            commentRepository.Save();
+        }
+
+        public void Confirm(long Id)
+        {
+            var model = commentRepository.Get(Id);
+            model.Confirm();
+            commentRepository.Save();
+        }
+
         public List<CommentViewModel> GetList()
         {
             return commentRepository.GetList();
