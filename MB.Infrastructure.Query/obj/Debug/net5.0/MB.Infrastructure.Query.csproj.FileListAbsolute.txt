@@ -14,3 +14,5 @@ F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\obj\Debug\net5.0\MB.Infrast
 F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\obj\Debug\net5.0\MB.Infrastructure.Query.csproj.CopyComplete
 F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\obj\Debug\net5.0\MB.Infrastructure.Query.dll
 F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\obj\Debug\net5.0\MB.Infrastructure.Query.pdb
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\bin\Debug\net5.0\01_FreamWork.dll
+F:\MasterBloger\MasterBloger\MB.Infrastructure.Query\bin\Debug\net5.0\01_FreamWork.pdb

@@ -17,7 +17,7 @@ namespace MB.Domain.ArticleCategoryAgg.Services
         }
         public void CheckThatThisRecourdAlreadyExsitis(string Title)
         {
-            if (articleCategoryRepositoory.Exsitis(Title))
+            if (articleCategoryRepositoory.Exists(s => s.Title == Title))
                 throw new DuoblicatedRecourdException("this record already exsits is database...");
             
         }

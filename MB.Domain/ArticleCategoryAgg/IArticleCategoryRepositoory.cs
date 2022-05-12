@@ -3,15 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _01_FreamWork.Infrastructure;
 
 namespace MB.Domain.ArticleCategoryAgg
 {
-    public interface IArticleCategoryRepositoory
+    public interface IArticleCategoryRepositoory:IRepository<long,ArticleCategory>
     {
-        List<ArticleCategory> GetAll();
-        void Add(ArticleCategory model);
-        ArticleCategory Get(int Id);
-        void Save();
-        bool Exsitis(string title);
+
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,19 +27,19 @@ namespace MB.Application
         {
             var model = commentRepository.Get(Id);
             model.Canceled();
-            commentRepository.Save();
+            //commentRepository.Save();
         }
 
         public void Confirm(long Id)
         {
             var model = commentRepository.Get(Id);
             model.Confirm();
-            commentRepository.Save();
+            //commentRepository.Save();
         }
 
         public List<CommentViewModel> GetList()
         {
-            return commentRepository.GetList();
+            return commentRepository.Getlist();
         }
     }
 }

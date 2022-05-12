@@ -3,52 +3,34 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _01_FreamWork.Infrastructure;
 using MB.Application.Contact.Article;
 using MB.Domain.ArticleAgg;
 using Microsoft.EntityFrameworkCore;
 
 namespace MB.Infrastructure.EFCore.Repository
 {
-    public class ArticleRepository:IArticleRepository
+    public class ArticleRepository:BaseRepository<long,Article>,IArticleRepository
     {
         private readonly MasterBlogerContext context;
 
-        public ArticleRepository(MasterBlogerContext context)
+        public ArticleRepository(MasterBlogerContext context):base(context)
         {
             this.context = context;
         }
 
-        public void Add(Article entity)
-        {
-            context.Articles.Add(entity);
-            context.SaveChanges();
-        }
 
-        public bool Exists(string title)
-        {
-            return context.Articles.Any(s => s.Title == title);
-        }
-
-        public Article Get(long Id)
-        {
-            return context.Articles.FirstOrDefault(s => s.Id == Id);
-        }
-
-        public List<ArticleViewModel> GetAll()
+        public List<ArticleViewModel> GetList()
         {
             return context.Articles.Include(s=>s.ArticleCategory).Select(s => new ArticleViewModel()
             {
                 Id = s.Id,
                 Title = s.Title,
                 IsDeleted = s.IsDeleted,
-                CreationDate = s.CreationDate.ToString(),
+                CreationDate = s.CreateDateTime.ToString(),
                 ArticleCategory = s.ArticleCategory.Title
             }).ToList();
         }
 
-        public void Save()
-        {
-            context.SaveChanges();
-        }
     }
 }

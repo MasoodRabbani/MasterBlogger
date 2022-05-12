@@ -4,43 +4,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _01_FreamWork.Infrastructure;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace MB.Infrastructure.EFCore.Repository
 {
-    public class ArticleCategoryRepository:IArticleCategoryRepositoory
+    public class ArticleCategoryRepository : BaseRepository<long, ArticleCategory>, IArticleCategoryRepositoory
     {
         private MasterBlogerContext context;
 
-        public ArticleCategoryRepository(MasterBlogerContext context)
+        public ArticleCategoryRepository(MasterBlogerContext context) : base(context)
         {
             this.context = context;
-        }
-
-        public void Add(ArticleCategory model)
-        {
-            context.ArticleCategories.Add(model);
-            context.SaveChanges();
-        }
-
-        public bool Exsitis(string title)
-        {
-            return context.ArticleCategories.Any(s => s.Title == title);
-        }
-
-        public ArticleCategory Get(int Id)
-        {
-            return context.ArticleCategories.FirstOrDefault(s => s.Id == Id);
-        }
-
-        public List<ArticleCategory> GetAll()
-        {
-            return context.ArticleCategories.OrderByDescending(s=>s.Id).ToList();
-        }
-
-        public void Save()
-        {
-            context.SaveChanges();
         }
     }
 }
