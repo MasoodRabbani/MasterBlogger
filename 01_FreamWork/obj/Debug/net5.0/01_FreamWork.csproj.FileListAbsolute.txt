@@ -1,6 +1,5 @@
 F:\MasterBloger\MasterBloger\01_FreamWork\bin\Debug\net5.0\01_FreamWork.deps.json
 F:\MasterBloger\MasterBloger\01_FreamWork\bin\Debug\net5.0\01_FreamWork.dll
-F:\MasterBloger\MasterBloger\01_FreamWork\obj\Debug\net5.0\01_FreamWork.csprojAssemblyReference.cache
 F:\MasterBloger\MasterBloger\01_FreamWork\obj\Debug\net5.0\01_FreamWork.AssemblyInfoInputs.cache
 F:\MasterBloger\MasterBloger\01_FreamWork\obj\Debug\net5.0\01_FreamWork.AssemblyInfo.cs
 F:\MasterBloger\MasterBloger\01_FreamWork\bin\Debug\net5.0\01_FreamWork.pdb

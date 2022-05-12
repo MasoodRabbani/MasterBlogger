@@ -27,7 +27,7 @@ namespace MB.Infrastructure.EFCore.Repository
                 {
                     Id = s.Id,
                     Name = s.Name,
-                    CreationDate = s.CreateDateTime.ToString(),
+                    CreationDate = s.CreationDate.ToString(),
                     Status = s.Status,
                     Artice = s.Article.Title,
                     Email = s.Email,

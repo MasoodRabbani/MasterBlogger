@@ -9,11 +9,11 @@ namespace _01_FreamWork.Domain
     public class DomainBase<T>
     {
         public T Id { get;private set; }
-        public DateTime CreateDateTime { get;private set; }
+        public DateTime CreationDate { get;private set; }
 
         public DomainBase()
         {
-            CreateDateTime =DateTime.Now;
+            CreationDate = DateTime.Now;
         }
     }
 }

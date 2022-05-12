@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using MB.Application;
 using System;
+using _01_FreamWork.Infrastructure;
 using MB.Application.Contact.Article;
 using MB.Application.Contact.Comment;
 using MB.Domain.ArticleAgg;
@@ -32,6 +33,9 @@ namespace MB.Infrastructure.Core
 
             services.AddTransient<ICommentApplication, CommentApplication>();
             services.AddTransient<ICommentRepository, CommentRepository>();
+
+
+            services.AddTransient<IUnitOfWork, UnitOfWorkEf>();
             services.AddDbContext<MasterBlogerContext>(option => option.UseSqlServer(ConnectingString));
         }
     }

@@ -27,7 +27,7 @@ namespace MB.Infrastructure.EFCore.Repository
                 Id = s.Id,
                 Title = s.Title,
                 IsDeleted = s.IsDeleted,
-                CreationDate = s.CreateDateTime.ToString(),
+                CreationDate = s.CreationDate.ToString(),
                 ArticleCategory = s.ArticleCategory.Title
             }).ToList();
         }

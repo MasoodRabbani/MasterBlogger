@@ -12,25 +12,30 @@ namespace MB.Application
 {
     public class ArticleCategoryApplication : IArticleCategoryApplication
     {
+        private readonly IUnitOfWork unitOfWork;
         private readonly IArticleCategoryRepositoory ArticleCategoryRepositoory;
         private readonly IArticleCategoryValidationServices validationServices;
 
-        public ArticleCategoryApplication(IArticleCategoryRepositoory articleCategoryRepositoory,
-            IArticleCategoryValidationServices validationServices)
+        public ArticleCategoryApplication(IUnitOfWork unitOfWork, IArticleCategoryRepositoory articleCategoryRepositoory, IArticleCategoryValidationServices validationServices)
         {
+            this.unitOfWork = unitOfWork;
             ArticleCategoryRepositoory = articleCategoryRepositoory;
             this.validationServices = validationServices;
         }
 
         public void Create(CreateArticleCategory Command)
         {
+            unitOfWork.BeginTran();
             ArticleCategoryRepositoory.Create(new ArticleCategory(Command.Title, validationServices));
+            unitOfWork.CommitTran();
         }
 
         public void Rename(RenameArticleCategory Command)
         {
+            unitOfWork.BeginTran();
             var model = ArticleCategoryRepositoory.Get(Command.Id);
             model.Rename(Command.Title);
+            unitOfWork.CommitTran();
             //ArticleCategoryRepositoory.Save();
         }
 
@@ -44,7 +49,7 @@ namespace MB.Application
 
                 Id = i.Id,
                 Title = i.Title,
-                CreationDate = i.CreateDateTime.ToString(),
+                CreationDate = i.CreationDate.ToString(),
                 IsDeleted = i.IsDeleted
             }).OrderByDescending(s => s.Id).ToList();
         }
@@ -60,15 +65,19 @@ namespace MB.Application
 
         public void Remove(int Id)
         {
+            unitOfWork.BeginTran();
             var model = ArticleCategoryRepositoory.Get(Id);
             model.Remove();
+            unitOfWork.CommitTran();
             //ArticleCategoryRepositoory.Save();
         }
 
         public void Active(int Id)
         {
+            unitOfWork.BeginTran();
             var model = ArticleCategoryRepositoory.Get(Id);
             model.Active();
+            unitOfWork.CommitTran();
             //ArticleCategoryRepositoory.Save();
         }
     }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _01_FreamWork.Infrastructure;
 using MB.Application.Contact.Article;
 using MB.Domain.ArticleAgg;
 
@@ -11,29 +12,39 @@ namespace MB.Application
     public class ArticleApplication : IArticleApplication
     {
         private IArticleRepository artcileRepository;
+        private readonly IUnitOfWork unitOfWork;
 
-        public ArticleApplication(IArticleRepository artcileRepository)
+        public ArticleApplication(IArticleRepository artcileRepository, IUnitOfWork unitOfWork)
         {
             this.artcileRepository = artcileRepository;
+            this.unitOfWork = unitOfWork;
         }
+
 
         public void Active(long Id)
         {
+            unitOfWork.BeginTran();
             var model = artcileRepository.Get(Id);
             model.Active();
-            artcileRepository.Save();
+            unitOfWork.CommitTran();
+            //artcileRepository.Save();
         }
 
         public void Create(CreateArticle Command)
         {
-            artcileRepository.Add(new Article(Command.Title,Command.ShortDescription,Command.Image,Command.Content,Command.ArticleCategory));
+            unitOfWork.BeginTran();
+            artcileRepository.Create(new Article(Command.Title,Command.ShortDescription,Command.Image,Command.Content,Command.ArticleCategory));
+            unitOfWork.CommitTran();
         }
 
         public void Edit(EditArticle Command)
         {
+            unitOfWork.BeginTran();
             var model=artcileRepository.Get(Command.Id);
             model.Edit(Command.Title,Command.ShortDescription,Command.Image,Command.Content,Command.ArticleCategory);
-            artcileRepository.Save();
+            unitOfWork.CommitTran();
+            
+            //artcileRepository.Save();
         }
 
         public EditArticle Get(long Id)
@@ -52,14 +63,16 @@ namespace MB.Application
 
         public List<ArticleViewModel> GetList()
         {
-            return artcileRepository.GetAll();
+            return artcileRepository.GetList();
         }
 
         public void Remove(long Id)
         {
+            unitOfWork.BeginTran();
             var model = artcileRepository.Get(Id);
             model.Remove();
-            artcileRepository.Save();
+            unitOfWork.CommitTran();
+            //artcileRepository.Save();
         }
     }
 }

@@ -12,3 +12,5 @@ F:\MasterBloger\MasterBloger\MB.Application\bin\Debug\net5.0\MB.Domain.pdb
 F:\MasterBloger\MasterBloger\MB.Application\obj\Debug\net5.0\MB.Application.csproj.CopyComplete
 F:\MasterBloger\MasterBloger\MB.Application\obj\Debug\net5.0\MB.Application.dll
 F:\MasterBloger\MasterBloger\MB.Application\obj\Debug\net5.0\MB.Application.pdb
+F:\MasterBloger\MasterBloger\MB.Application\bin\Debug\net5.0\01_FreamWork.dll
+F:\MasterBloger\MasterBloger\MB.Application\bin\Debug\net5.0\01_FreamWork.pdb

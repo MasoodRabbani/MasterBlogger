@@ -15,7 +15,6 @@ F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\MB.P
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\MB.Peresentation.MVCCore.Views.dll
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\MB.Peresentation.MVCCore.Views.pdb
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\Microsoft.Bcl.AsyncInterfaces.dll
-F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\Microsoft.Bcl.HashCode.dll
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\Microsoft.Data.SqlClient.dll
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\Microsoft.EntityFrameworkCore.dll
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -158,13 +157,6 @@ F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\MB.I
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\MB.Infrastructure.Query.pdb
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\obj\Debug\netcoreapp5\Razor\Pages\Details.cshtml.g.cs
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\obj\Debug\netcoreapp5\Razor\Areas\Administrator\Pages\CommentManagment\List.cshtml.g.cs
-F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\Microsoft.Extensions.Caching.Abstractions.dll
-F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\Microsoft.Extensions.Caching.Memory.dll
-F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\Microsoft.Extensions.Logging.dll
-F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\Microsoft.Extensions.Logging.Abstractions.dll
-F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\Microsoft.Extensions.Options.dll
-F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\Microsoft.Extensions.Primitives.dll
-F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\System.ComponentModel.Annotations.dll
-F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\System.Diagnostics.DiagnosticSource.dll
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\01_FreamWork.dll
 F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\01_FreamWork.pdb
+F:\MasterBloger\MasterBloger\MB.Peresentation.MVCCore\bin\Debug\netcoreapp5\Microsoft.Bcl.HashCode.dll
